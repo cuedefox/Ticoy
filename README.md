@@ -6,11 +6,11 @@ autores:
 - Rosmar Reyes
 
 secciones: 
-- navbar
-- main(home)
-- productos
-- faq
-- about
-- contact
-- footer
-- wsp but
+- navbar Rodrigo
+- Home / Header Rosmar
+- productos Rosmar
+- faq Rosmar
+- about Rodrigo
+- contact Rosmar
+- footer Rodrigo
+- wsp but Rodrigo
