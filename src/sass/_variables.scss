@@ -2,3 +2,8 @@ $background: #E5E5E5;
 $principal: #DF0909;
 $secundario: #FFE3ED;
 $acento: #C7C1C3;
+
+@mixin size($height, $width) {
+    height: $height;
+    width: $width;
+}

@@ -1,10 +1,10 @@
 import React from "react";
-import whatsapp from '../assets/img/whatsapp.svg';
+import whatsapp from '../assets/img/whatsapp.png';
 
 const WhatsappBut = () => {
-    const cargarImagen = require.context("../assets/imgitem", true);
+    const cargarImagen = require.context("../assets/img", true);
     return <>
-        <a href=""><img src={cargarImagen(`./${whatsapp}`)} alt="" /></a>
+        <a href=""><img className="but-whatsapp" src={cargarImagen(`./${whatsapp}`)} alt="" /></a>
     </>
 }
 
