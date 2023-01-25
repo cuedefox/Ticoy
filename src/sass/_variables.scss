@@ -3,6 +3,21 @@ $principal: #DF0909;
 $secundario: #FFE3ED;
 $acento: #C7C1C3;
 
+@font-face {
+    font-family: Economica;
+    src: url('../assets/fonts/economica.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../assets/fonts/montserrat.ttf');
+}
+
+@font-face {
+    font-family: OFL Sorts Mill Goudy TT;
+    src: url('../assets/fonts/ofl.ttf');
+}
+
 @mixin size($height, $width) {
     height: $height;
     width: $width;
