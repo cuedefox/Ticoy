@@ -2,9 +2,8 @@ import React from "react";
 import whatsapp from '../assets/img/whatsapp.png';
 
 const WhatsappBut = () => {
-    const cargarImagen = require.context("../assets/img", true);
     return <>
-        <a href=""><img className="but-whatsapp" src={cargarImagen(`./${whatsapp}`)} alt="" /></a>
+        <a href="https://api.whatsapp.com/send?phone=5493543552282" target="_blank" rel="noreferrer"><img className="but-whatsapp" src={whatsapp} alt="" /></a>
     </>
 }
 
