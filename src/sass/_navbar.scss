@@ -1,0 +1,30 @@
+nav {
+    position: fixed;
+    top: 2em;
+    background-color: #D9D9D94D;
+    width: 100%;
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 1em;
+        margin-left: 5em;
+        li {
+            margin: 0em 1em;
+            a {
+                text-decoration: none;
+                font-family: 'Economica';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 143.4%;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.04em;
+                color: #554C4F;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+        }
+    }
+}
