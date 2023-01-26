@@ -23,6 +23,11 @@ $acento: #C7C1C3;
     src: url('../assets/fonts/ofl.ttf');
 }
 
+@font-face {
+    font-family: Inter;
+    src: url('../assets/fonts/inter.ttf');
+}
+
 @mixin size($height, $width) {
     height: $height;
     width: $width;

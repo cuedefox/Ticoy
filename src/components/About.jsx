@@ -3,11 +3,10 @@ import back from "../assets/img/backgrounds/about.png"
 
 const About = () => {
     const stylesBack = {
-        position: 'absolute',
         backgroundImage: `url(${back})`,
     }
 
-    return <div className="about" style={stylesBack}>
+    return <div className="about" style={stylesBack} id="about">
         <h2>Sobre Ticoy</h2>
         <div>
             <h3>¿Quién esta detrás de la marca?</h3>

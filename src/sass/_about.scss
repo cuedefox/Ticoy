@@ -1,9 +1,11 @@
 .about {
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3em;
     h2 {
         font-family: 'OFL Sorts Mill Goudy TT';
         font-style: normal;
