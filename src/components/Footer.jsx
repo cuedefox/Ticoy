@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="redes-footer">
                     <h5>Redes Sociales</h5>
                     <div>
-                        <a href="https://www.instagram.com/ticoy.joyas/"><img src={igLogo} alt="Instagram de Ticoy" /></a>
+                        <a href="https://www.instagram.com/ticoy.joyas/" target="_blank" rel="noreferrer"><img src={igLogo} alt="Instagram de Ticoy" /></a>
                     </div>
                 </div>
             </div>
