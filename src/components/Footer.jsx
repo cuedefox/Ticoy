@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copy">
-            <p>Copyright Ticoy Joyas - 2023. Todos los derechos reservados. Defensa de las y los consumidores. Para reclamos&nbsp;<a href="https://www.instagram.com/ticoy.joyas/">ingrese aquí</a>.</p>
+            <p>Copyright Ticoy Joyas - 2023. Todos los derechos reservados. Defensa de las y los consumidores.</p>
         </div>
     </footer>
 }

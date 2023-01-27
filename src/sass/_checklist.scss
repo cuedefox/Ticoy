@@ -1,0 +1,78 @@
+.checklist {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        font-family: 'OFL Sorts Mill Goudy TT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 65px;
+        line-height: 143.4%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.035em;
+        color: $principal;
+        margin: 1em 0em .3em 0em;
+    }
+    ol {
+        list-style-type: none;
+        li {
+            display: flex;
+            margin: 2em 0em;
+            p {
+                margin: 0em .3em;
+            }
+        }
+        margin-bottom: 8em;
+    }
+}
+.checklist-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 143.4%;
+    color: $principal;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: $secundario;
+}
+.checklist-data {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 143.4%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #332D2F;
+}
+.checklist-alert {
+    position: relative;
+    margin-bottom: 96px;
+    img {
+        position: absolute;
+        left: -4em;
+        top: 1em;
+    }
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 143.4%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #332D2F; 
+        width: 60em;
+    }
+}

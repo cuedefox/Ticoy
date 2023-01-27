@@ -9,6 +9,7 @@ secciones:
 - navbar Rodrigo
 - Home / Header Rosmar
 - productos Rosmar
+- checklist Rodrigo
 - faq Rosmar
 - about Rodrigo
 - contact Rosmar
