@@ -1,0 +1,82 @@
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        left: 7%;
+        .logo {
+            .logoHeader {
+                width: 600px;
+                height: 600px;
+            }
+        }
+
+        .catalogo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            text-align: center;
+            height: 128px;
+            position: absolute;
+            top: 68%;
+
+            h2 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 143.4%;
+                letter-spacing: 0.04em;
+            }
+
+            .botonCatalogo {
+                font-family: 'Montserrat';
+                background-color: $principal;
+                color: $headerBoton;
+                border: 4px solid $headerBoton;
+                border-radius: 10px;
+                width: fit-content;
+                height: 45px;
+                padding: 0 1rem;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.2rem;
+                line-height: 143.4%;
+                margin-top: 2.9rem;
+            }
+        }
+    }
+
+    .imagenesInicio {
+        .anillo {
+            position: absolute;
+            border-radius: 100%;
+            width: 350px;
+            height: 350px;
+            left: 1050px;
+            top: 210px;
+            z-index: 1;
+        }
+
+        .anilloDorado {
+            position: absolute;
+            border-radius: 100%;
+            width: 250px;
+            height: 250px;
+            left: 860px;
+            top: 400px;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+    }
+}
