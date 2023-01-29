@@ -1,0 +1,108 @@
+.productos {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+
+    .tituloProductos {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 6rem;
+
+        h2 {
+            font-family: 'OFL Sorts Mill Goudy TT';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 65px;
+            line-height: 143.4%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.035em;
+            color: $principal;
+        }
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 143.4%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: $header;
+            width: 70%;
+        }
+    }
+
+    .imagenesProductos {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "aros collares collares" "aros anillos  pulseras";
+        margin-top: 2rem;
+        gap: 10px;
+
+        .aros{
+            grid-area: aros;
+            @extend %positionProductos;
+            img {
+                width: 350px;
+                height: 460px;
+            }
+            h3{
+                position:absolute;
+                bottom: 15px;
+                left: 6px;
+                @extend %letrasProductos;
+            }
+        }
+        .collares{
+            grid-area: collares;
+            @extend %positionProductos;
+            img {
+                width: 510px;
+                height: 225px;
+            }
+            h3{
+                position:absolute;
+                bottom: 15px;
+                left: 6px;
+                @extend %letrasProductos;
+            }
+        }
+        .anillos {
+            grid-area: anillos;
+            @extend %positionProductos;
+            img{
+                width: 250px;
+                height: 225px;
+            }
+            h3{
+                position:absolute;
+                top: 10px;
+                left: 5px;
+                @extend %letrasProductos;
+            }
+        }
+        .pulseras{
+            grid-area: pulseras;
+            @extend %positionProductos;
+            img{
+                width: 250px;
+                height: 225px;
+            }
+            h3{
+                position:absolute;
+                bottom: 10px;
+                right: 5px;
+                @extend %letrasProductos;
+            }
+        }
+    }
+}

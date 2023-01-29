@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+//colores de letras y fondos 
 
 $background: #E5E5E5;
 $principal: #DF0909;
@@ -9,6 +10,23 @@ $secundario: #FFE3ED;
 $acento: #C7C1C3;
 $header:#554C4F;
 $headerBoton: #FFFFFF;
+$fontProducts: rgba(255, 255, 255, 0.6);
+
+// letras que estan por encima de las imagenes en productos
+%letrasProductos {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 143.4%;
+    color: $fontProducts;
+}
+
+// position del contenedor de las imagenes y h3 de la seccion de productos
+%positionProductos{
+    position: relative;
+    display: inline-block;
+}
 
 @font-face {
     font-family: Economica;
