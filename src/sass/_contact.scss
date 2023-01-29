@@ -1,0 +1,60 @@
+.contact {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 60vh;
+    margin-top: 100px;
+    h2 {
+        font-family: 'OFL Sorts Mill Goudy TT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 65px;
+        line-height: 143.4%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.035em;
+        color: $principal;
+    }
+
+    .containerContact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15rem;
+        font-family: Montserrat;
+        color: $principal;
+        margin-top: 100px;
+        .instagram{
+            .igRedes{
+                @extend %redes;
+            }
+            .igBtn{
+                text-align: center;
+                p{
+                    margin-top: 8px;
+                    font-size: 0.8rem;
+                }
+                button{
+                    @extend %btnRedes;
+                }
+            }
+        }
+        .whatsapp{
+            .wspRedes{
+                @extend %redes;
+            }
+            .wspBtn{
+                text-align: center;
+                p{
+                    margin-top: 8px;
+                    font-size: 0.8rem;
+                }
+                button{
+                    @extend %btnRedes;
+                }
+            }
+        }
+    }
+
+}

@@ -28,6 +28,28 @@ $fontProducts: rgba(255, 255, 255, 0.6);
     display: inline-block;
 }
 
+// alineador de nombre de RS con logo 
+%redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+//boton de contacto que lleva a cada red social
+%btnRedes {
+    @extend %letrasProductos;
+    color: $principal;
+    font-size: 0.9rem;
+    border: 1px solid $principal;
+    border-radius: 9px;
+    width: 115px;
+    height: 30px;
+    background-color: white;
+    margin-top: 25px;
+}
+
 @font-face {
     font-family: Economica;
     src: url('../assets/fonts/economica.ttf');
