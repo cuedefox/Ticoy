@@ -1,12 +1,12 @@
-import React from "react";
+import {React, useState} from "react";
 
 const NavBar = () => {
-    const [mobileMenu, setMobileMenu] = useState(false);
-    const [linkActive, setLinkActive] = useState("inicio");
+    //const [mobileMenu, setMobileMenu] = useState(false);
+   // const [linkActive, setLinkActive] = useState("inicio");
 
-    const desplegarMenu = () => {
-        setMobileMenu(!mobileMenu);
-    };
+   // const desplegarMenu = () => {
+   //     setMobileMenu(!mobileMenu);
+  //  };
 
     return <nav>
 {/*                    <Link className="logo" to={"/"} >

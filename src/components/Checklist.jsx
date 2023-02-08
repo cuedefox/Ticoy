@@ -1,7 +1,5 @@
 import React from "react";
 import back from '../assets/img/backgrounds/checklist.png';
-import items from '../db/checklist.json';
-import ChecklistItem from "../Items/ChecklistItem";
 import checklistIcon from "../assets/img/checklist-icon.svg";
 
 const Checklist = () => {
@@ -12,9 +10,26 @@ const Checklist = () => {
     return <div className="checklist" style={stylesBack} id="about">
         <h2>Checklist para cuidar tus joyas Ticoy</h2>
         <ol className="checklist-items">
-            {
-                items.map(item => <ChecklistItem key={`checklist-item-${item.id}`} item={item} />)
-            }
+            <li className="checklist-item">
+                <p className="checklist-number">1</p>
+                <p className="checklist-data">No uses&nbsp;<span className="bold">productos de limpieza</span>&nbsp;con tus joyas puestas.</p>
+            </li>
+            <li className="checklist-item">
+                <p className="checklist-number">2</p>
+                <p className="checklist-data">No lleves tus joyas al&nbsp;<span className="bold">mar.</span></p>
+            </li>
+            <li className="checklist-item">
+                <p className="checklist-number">3</p>
+                <p className="checklist-data">No las úses para&nbsp;<span className="bold">hacer deporte.</span></p>
+            </li>
+            <li className="checklist-item">
+                <p className="checklist-number">4</p>
+                <p className="checklist-data">Guardalas en un&nbsp;<span className="bold">lugar ventilado.</span></p>
+            </li>
+            <li className="checklist-item">
+                <p className="checklist-number">5</p>
+                <p className="checklist-data">No&nbsp;<span className="bold">duermas</span>&nbsp;con ellas.</p>
+            </li>
         </ol>
         <div className="checklist-alert">
             <img src={checklistIcon} alt="Icono de alerta" />
