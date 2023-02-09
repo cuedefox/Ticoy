@@ -1,9 +1,8 @@
 import React from "react";
 import back from "../assets/img/backgrounds/inicio.png";
 import logo from "../assets/img/logo.svg";
-import anillo from "../assets/img/productos/anillo.png"
-import anillo2 from "../assets/img/productos/anillo2.png"
-
+import inicio from "../assets/img/productos/inicio.jpg"
+import borde from "../assets/img/borde.png"
 const Header = () => {
     const stylesBack = {
         backgroundImage: `url(${back})`,
@@ -25,8 +24,10 @@ const Header = () => {
         </div>
 
         <div className="imagenesInicio">
-            <img src={anillo} alt="anillo" className="anillo"/>
-            <img src={anillo2} alt="anillo dorado" className="anilloDorado" />
+            <div className="containerImg">
+            <img src={inicio} alt="accesorios" className="inicio"/>
+            <img src={borde} alt="rectangulo" className="borde"/>
+            </div>
         </div>
     </div>
     )

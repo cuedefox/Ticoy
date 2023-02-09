@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NavBar = () => {
     const [mobileMenu, setMobileMenu] = useState(false);

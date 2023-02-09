@@ -2,9 +2,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
+    align-content: center;
     height: 100vh;
 
     .principal {
@@ -12,8 +12,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        position: absolute;
-        left: 7%;
         .logo {
             .logoHeader {
                 width: 600px;
@@ -59,24 +57,21 @@
     }
 
     .imagenesInicio {
-        .anillo {
-            position: absolute;
-            border-radius: 100%;
-            width: 350px;
-            height: 350px;
-            left: 1050px;
-            top: 210px;
-            z-index: 1;
-        }
-
-        .anilloDorado {
-            position: absolute;
-            border-radius: 100%;
-            width: 250px;
-            height: 250px;
-            left: 860px;
-            top: 400px;
-            transform: matrix(-1, 0, 0, 1, 0, 0);
+        .containerImg{
+            .inicio {
+                width: 300px;
+                height: 400px;
+                position: absolute;
+                right: 15%;
+                bottom: 15%;
+            }
+            .borde {
+                width: 413px;
+                height: 520px;  
+                position: absolute;
+                right: 11%;
+                bottom: 8.3%;
+            }
         }
     }
 }

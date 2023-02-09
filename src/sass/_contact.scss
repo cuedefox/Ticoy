@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    height: 60vh;
+    height: 75vh;
     margin-top: 100px;
     h2 {
         font-family: 'OFL Sorts Mill Goudy TT';
@@ -18,14 +18,10 @@
     }
 
     .containerContact {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 15rem;
         font-family: Montserrat;
         color: $principal;
-        margin-top: 100px;
         .instagram{
+            padding: 3rem;
             .igRedes{
                 @extend %redes;
             }

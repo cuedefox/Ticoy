@@ -1,7 +1,7 @@
 import React from "react";
 import back from "../assets/img/backgrounds/productos.png";
 import anillos from "../assets/img/productos/anillos.jpeg"
-import pulseras from "../assets/img/productos/pulseras.jpeg"
+import pulseras from "../assets/img/productos/inicio2.jpeg"
 import collares from "../assets/img/productos/collares.jpeg"
 import aros from "../assets/img/productos/aros.jpeg"
 const Products = () => {
