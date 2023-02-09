@@ -16,7 +16,6 @@ footer {
     margin: 1.5em 5em;
     div {
         display: flex;
-        justify-content: space-between;
         margin-bottom: 2em;
         margin-right: 5em;
     }
@@ -25,14 +24,16 @@ footer {
     ul {
         list-style-type: none;
         li {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 20px;
+            color: #554C4F;
+            margin: 0.5em;
             a {
                 text-decoration: none;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 24px;
-                color: #000000;
+                color: #554C4F;
             }
         }
     }
@@ -44,10 +45,8 @@ footer {
     justify-content: flex-start;
     position: relative;
     ul {
-        position: absolute;
-        top: 2em;
-        left: 2em;
         width: 17em;
+        list-style-type: none;
     }
     li {
         font-family: 'Inter';
@@ -56,26 +55,19 @@ footer {
         font-size: 20px;
         line-height: 24px;
         color: #000000;
-    }
-}
-.redes-footer {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    img {
-
+        display: flex;
+        flex-flow: row nowrap;
     }
 }
 .copy {
-    background: $principal;
+    background: #C7C1C3;
     padding: 1em;
     p {
         margin-left: 2.5em;
         font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
+        font-weight: 600;
+        font-size: 1em;
         line-height: 143.4%;
         display: flex;
         align-items: center;

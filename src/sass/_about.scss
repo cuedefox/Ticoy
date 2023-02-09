@@ -1,23 +1,38 @@
 .about {
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     padding-bottom: 3em;
-    h2 {
-        font-family: 'OFL Sorts Mill Goudy TT';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 65px;
-        line-height: 143.4%;
+    .title {
+        position: relative;
+        width: 100%;
         display: flex;
+        justify-content: center;
         align-items: center;
-        text-align: center;
-        letter-spacing: -0.035em;
-        color: $principal;
-        margin: 1em;
+        padding: 3em;
+        background-color: $secundario;
+        h2 {
+            font-family: 'OFL Sorts Mill Goudy TT';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 143.4%;
+            letter-spacing: -0.035em;
+            color: $principal;
+        }
+        img {
+            position: absolute;
+            right: 2em;
+            bottom: 0px;
+        }
+    }
+    .girl {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        z-index: -3;
     }
     div {
         display: flex;
@@ -27,15 +42,15 @@
         margin: 2em;
         h3 {
             font-family: 'Economica';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 45px;
-        line-height: 143.4%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: $principal;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2em;
+            line-height: 143.4%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: $principal;
         }
         p {
             font-family: 'Montserrat';
@@ -43,16 +58,22 @@
             font-weight: 400;
             font-size: 20px;
             line-height: 143.4%;
-            display: flex;
-            align-items: center;
-            text-align: center;
             letter-spacing: 0.04em;
             color: #332D2F;
             width: 70%;
             margin-top: 1.5em;
+            text-align: center;
         }
     }
 }
+
+.bold {
+    font-weight: bolder;
+}
+.italic {
+    font-style: italic;
+}
+
 @media screen and (max-width:1440px) {
 
 }

@@ -7,6 +7,7 @@ const Footer = () => {
             <div>
                 <div className="nav-footer">
                     <ul>
+                        <li><span className="bold">Categorías</span></li>
                         <li><a href="#header">Inicio</a></li>
                         <li><a href="#products">Productos</a></li>
                         <li><a href="#faq">Preguntas frecuentes</a></li>
@@ -17,16 +18,15 @@ const Footer = () => {
                 <div className="contacto-footer">
                     <h5>Contactános</h5>
                     <ul>
-                        <li>+54 3543 55-2282</li>
-                        <li>-----@gmail.com</li>
-                        <li>Solo venta online.</li>
+                        <li>
+                            <img src="" alt="" />
+                            <p>+54 3543 55-2282</p>
+                        </li>
+                        <li>
+                            <img src="" alt="" />
+                            <p>Salsipuedes, Córdoba.</p>
+                        </li>
                     </ul>
-                </div>
-                <div className="redes-footer">
-                    <h5>Redes Sociales</h5>
-                    <div>
-                        <a href="https://www.instagram.com/ticoy.joyas/" target="_blank" rel="noreferrer"><img src={igLogo} alt="Instagram de Ticoy" /></a>
-                    </div>
                 </div>
             </div>
         </div>
