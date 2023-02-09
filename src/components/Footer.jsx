@@ -1,5 +1,5 @@
 import React from "react";
-import igLogo from "../assets/img/ig-logo.svg";
+//import igLogo from "../assets/img/ig-logo.svg";
 
 const Footer = () => {
     return <footer>

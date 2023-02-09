@@ -1,5 +1,6 @@
 
-import React, { useState } from "react";
+//import React, { useState } from "react";
+
 const NavBar = () => {
     //const [mobileMenu, setMobileMenu] = useState(false);
    // const [linkActive, setLinkActive] = useState("inicio");
