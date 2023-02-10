@@ -1,5 +1,6 @@
 import React from "react";
-//import igLogo from "../assets/img/ig-logo.svg";
+import whatsapp from '../assets/img/icons-footer/whatsapp.svg';
+import ubicacion from '../assets/img/icons-footer/ubicacion.svg';
 
 const Footer = () => {
     return <footer>
@@ -16,14 +17,14 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="contacto-footer">
-                    <h5>Contactános</h5>
+                    <h5><span className="bold">Contactános</span></h5>
                     <ul>
                         <li>
-                            <img src="" alt="" />
+                            <img src={whatsapp} alt="" />
                             <p>+54 3543 55-2282</p>
                         </li>
                         <li>
-                            <img src="" alt="" />
+                            <img src={ubicacion} alt="" />
                             <p>Salsipuedes, Córdoba.</p>
                         </li>
                     </ul>

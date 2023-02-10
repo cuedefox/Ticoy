@@ -79,7 +79,8 @@
 @media screen and (max-width:1440px) {
     .checklist-alert {
         img {
-
+            @include size(3em, 3em);
+            top: 0.2em;
         }
         p {
             font-size: 14px;
@@ -87,7 +88,13 @@
     }
 }
 @media screen and (max-width:768px) {
-
+    .checklist-alert {
+        display: flex;
+        flex-flow: nowrap column;
+        img {
+            position: relative;
+        }
+    }
 }
 @media screen and (max-width:425px) {
 

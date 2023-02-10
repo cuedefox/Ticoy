@@ -7,11 +7,13 @@
     padding-bottom: 3em;
     .title {
         position: relative;
-        width: 100%;
+        margin-top: 0;
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 3em;
+        padding-top: 3em;
+        padding-bottom: 3em;
         background-color: $secundario;
         h2 {
             font-family: 'OFL Sorts Mill Goudy TT';
@@ -78,7 +80,9 @@
 
 }
 @media screen and (max-width:768px) {
-
+    .girl {
+        display: none;
+    }
 }
 @media screen and (max-width:425px) {
 

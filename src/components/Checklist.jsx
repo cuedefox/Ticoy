@@ -7,7 +7,7 @@ const Checklist = () => {
         backgroundImage: `url(${back})`,
     }
 
-    return <div className="checklist" style={stylesBack} id="about">
+    return <div className="checklist" style={stylesBack} id="checklist">
         <h2>Checklist para cuidar tus joyas Ticoy</h2>
         <ol className="checklist-items">
             <li className="checklist-item">
