@@ -1,5 +1,5 @@
 import React from "react";
-import back from "../assets/img/backgrounds/inicio.png";
+import back from "../assets/img/backgrounds/inicio.svg";
 import logo from "../assets/img/logo.svg";
 import inicio from "../assets/img/productos/inicio.jpg"
 import borde from "../assets/img/borde.png"
