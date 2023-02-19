@@ -78,7 +78,7 @@ nav {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:859px) {
     nav {
         display: flex;
         justify-content: flex-end;
@@ -115,7 +115,7 @@ nav {
             text-align: start;
             transition: all ease-in-out .4s;
             top: -1em;
-            left: -100%;
+            left: -200%;
             padding-left: 2em;
             padding-top: 2em;
             li {

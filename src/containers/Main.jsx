@@ -7,11 +7,11 @@ import Products from "../components/Products";
 
 const Main = () => {
     return <main>
-        <Products />
+        {/*<Products />*/}
         <Checklist />
-        <Faq />
+        {/*<Faq />*/}
         <About />
-        <Contact />
+        {/*<Contact />*/}
     </main>
 }
 

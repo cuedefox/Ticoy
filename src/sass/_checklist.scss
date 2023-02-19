@@ -48,9 +48,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 143.4%;
-    display: flex;
-    align-items: center;
+    line-height: 143.4%;;
     letter-spacing: 0.04em;
     color: #332D2F;
 }
@@ -68,12 +66,10 @@
         font-weight: 400;
         font-size: 24px;
         line-height: 143.4%;
-        display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.04em;
-        color: #332D2F; 
-        width: 60em;
+        color: #332D2F;
+        margin: 0em 6em 0em 6em;
+        text-align: center;
     }
 }
 @media screen and (max-width:1440px) {
@@ -87,13 +83,29 @@
         }
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:859px) {
     .checklist-alert {
-        display: flex;
-        flex-flow: nowrap column;
+        p {
+            font-size: 1em;
+            
+        }
         img {
             position: relative;
+            display: none;
         }
+    }
+    .checklist {
+        h2 {
+            font-size: 44px;
+        }
+    }
+    .checklist-number {
+        font-size: 20px;
+        width: 40px;
+        border-radius: 100%;
+    }
+    .checklist-data {
+        font-size: 1em;
     }
 }
 @media screen and (max-width:425px) {
