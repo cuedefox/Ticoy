@@ -9,7 +9,7 @@ import './sass/import.scss';
 function App() {
   return <>
     <NavBar />
-    {/*<Header />*/}
+    <Header />
     <Main />
     <Footer />
     <WhatsappBut />
