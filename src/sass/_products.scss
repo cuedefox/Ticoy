@@ -26,6 +26,7 @@
             letter-spacing: -0.035em;
             color: $principal;
         }
+
         p {
             font-family: 'Montserrat';
             font-style: normal;
@@ -44,65 +45,128 @@
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: "aros collares collares" "aros anillos  pulseras";
+        grid-template-areas: "aros collares collares""aros anillos  pulseras";
         margin-top: 2rem;
         gap: 10px;
 
-        .aros{
+        .aros {
             grid-area: aros;
             @extend %positionProductos;
+
             img {
                 width: 350px;
                 height: 460px;
             }
-            h3{
-                position:absolute;
+
+            h3 {
+                position: absolute;
                 bottom: 15px;
                 left: 6px;
                 @extend %letrasProductos;
             }
         }
-        .collares{
+
+        .collares {
             grid-area: collares;
             @extend %positionProductos;
+
             img {
                 width: 510px;
                 height: 225px;
             }
-            h3{
-                position:absolute;
+
+            h3 {
+                position: absolute;
                 bottom: 15px;
                 left: 6px;
                 @extend %letrasProductos;
             }
         }
+
         .anillos {
             grid-area: anillos;
             @extend %positionProductos;
-            img{
+
+            img {
                 width: 250px;
                 height: 225px;
             }
-            h3{
-                position:absolute;
+
+            h3 {
+                position: absolute;
                 top: 10px;
                 left: 5px;
                 @extend %letrasProductos;
             }
         }
-        .pulseras{
+
+        .pulseras {
             grid-area: pulseras;
             @extend %positionProductos;
-            img{
+
+            img {
                 width: 250px;
                 height: 225px;
             }
-            h3{
-                position:absolute;
+
+            h3 {
+                position: absolute;
                 bottom: 10px;
                 right: 5px;
                 @extend %letrasProductos;
             }
         }
     }
+}
+
+@media screen and (max-width:768px) {
+    .productos {
+        display: flex;
+        height: 100%;
+        .tituloProductos {
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .imagenesProductos {
+            display: flex;
+            flex-direction: column;
+
+            .aros {
+                img {
+                    width: 95vw;
+                    height: 460px;
+                }
+            }
+
+            .collares {
+                img {
+                    width: 95vw;
+                    height: 340px;
+                }
+            }
+
+            .anillos {
+                img {
+                    width: 95vw;
+                    height: 340px;
+                }
+            }
+
+            .pulseras {
+                img {
+                    width: 95vw;
+                    height: 340px;
+                }
+            }
+        }
+    }
+
 }

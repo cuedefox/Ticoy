@@ -56,7 +56,8 @@
         }
     }
 
-    .imagenesInicio {
+    .imagenesInicioDesktop {
+
         .containerImg{
             .inicio {
                 width: 300px;
@@ -74,13 +75,146 @@
             }
         }
     }
+
+    .imagenesInicioMobile{
+        display: none;
+    }
 }
 @media screen and (max-width:1440px) {
 
 }
-@media screen and (max-width:768px) {
+@media screen and ((min-width:681px) and (max-width:768px)) {
+    .header{
+        .principal{
+            .catalogo {
+                top: 78%;
+                .botonCatalogo{
+                    margin-top: 2.5rem;
+                }
+            }
+            .logo {
+                position: absolute;
+                top: 45%;
+                right: 25%;
+                z-index: 1;
+                .logoHeader {
+                    width: 235px;
+                    height: 235px;
+                }
+            }
+        }
+        .imagenesInicioDesktop{
+            display: none;
+        }
 
+        .imagenesInicioMobile{
+            display: initial;
+            .containerImgMobile {
+                img{
+                    position: absolute;
+                    width: 225px; 
+                    height: 225px;
+                    border-radius: 80%;
+                }
+                .img1 {
+                    top: 20%;
+                    right: 25%;
+                    z-index: 1;
+                }
+
+                .img2 {
+                    top: 40%;
+                    left: 25%;
+                }
+            }
+        }
+    }
 }
-@media screen and (max-width:425px) {
 
+@media screen and ((min-width:500px) and (max-width:680px)) {
+    .header{
+        .principal{
+            .catalogo {
+                top: 78%;
+                .botonCatalogo{
+                    margin-top: 2.5rem;
+                }
+            }
+            .logo {
+                position: absolute;
+                top: 45%;
+                right: 25%;
+                z-index: 1;
+                .logoHeader {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+        .imagenesInicioDesktop{
+            display: none;
+        }
+        .imagenesInicioMobile{
+            display: initial;
+            .containerImgMobile {
+                img{
+                    position: absolute;
+                    width: 180px; 
+                    height: 180px;
+                    border-radius: 80%;
+                }
+                .img1 {
+                    top: 20%;
+                    right: 28%;
+                    z-index: 1;
+                }
+
+                .img2 {
+                    top: 40%;
+                    left: 28%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and ((min-width: 320px) and (max-width:500px)) {
+    .header{
+        .principal{
+            .logo {
+                position: absolute;
+                top: 40%;
+                left: 42.5%;
+                .logoHeader {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+        .imagenesInicioDesktop{
+            display: none;
+        }
+
+        .imagenesInicioMobile{
+            display: initial;
+            .containerImgMobile {
+                img{
+                    position: absolute;
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 80%;
+                }
+                .img1 {
+                    top: 17%;
+                    right: 8%;
+                    z-index: 1;
+                }
+
+                .img2 {
+                    top: 33%;
+                    left: 8%;
+                }
+            }
+        }
+    }   
 }

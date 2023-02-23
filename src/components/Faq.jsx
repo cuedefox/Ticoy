@@ -3,7 +3,12 @@ import { useModal } from "./UseModal";
 import Modal from "./ModalFaq";
 import icono from "../assets/img/iconFaq.png";
 import logo from "../assets/img/logoFaq.png";
+import backfaq from "../assets/img/backgrounds/faqs.svg"
 const Faq = () => {
+    const stylesBack = {
+        backgroundImage: `url(${backfaq})`,
+    }
+
     const [isOpenModal1, openModal1, closeModal1] = useModal(false);
     const [isOpenModal2, openModal2, closeModal2] = useModal(false);
     const [isOpenModal3, openModal3, closeModal3] = useModal(false);
@@ -85,7 +90,7 @@ const Faq = () => {
         }
     ];
     return (
-        <div className="faq" id="faq">
+        <div className="faq" id="faq" style={stylesBack}>
             <h2>Preguntas frecuentes</h2>
             <div className="containerFaq">
                 {/* preguntas lado izquierdo */}
