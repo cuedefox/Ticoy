@@ -113,7 +113,7 @@ const Faq = () => {
                 <div className="left">
                     {
                         buttonLeft.map(button => (
-                            <div>
+                            <div key={`button-${button.name}`}>
                                 <button onClick={button.abrirModal}>
                                     {button.name}
                                 </button>
@@ -133,7 +133,7 @@ const Faq = () => {
                 <div className="right">
                     {
                         buttonRight.map(button => (
-                            <div>
+                            <div key={`button-${button.name}`}>
                                 <button onClick={button.abrirModal}>
                                     {button.name}
                                 </button>
