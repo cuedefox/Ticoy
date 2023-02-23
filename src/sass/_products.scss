@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
+    height: 100%;
 
     .tituloProductos {
         display: flex;
@@ -121,8 +121,6 @@
 
 @media screen and (max-width:768px) {
     .productos {
-        display: flex;
-        height: 100%;
         .tituloProductos {
             margin-top: 2rem;
 

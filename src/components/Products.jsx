@@ -1,5 +1,5 @@
 import React from "react";
-import back from "../assets/img/backgrounds/productos.png";
+import back from "../assets/img/backgrounds/productos.svg";
 import anillos from "../assets/img/productos/anillos.jpeg"
 import pulseras from "../assets/img/productos/inicio2.jpeg"
 import collares from "../assets/img/productos/collares.jpeg"

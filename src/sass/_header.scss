@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     align-content: center;
     height: 100vh;
 
@@ -12,6 +12,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
         .logo {
             .logoHeader {
                 width: 600px;
@@ -58,7 +59,7 @@
 
     .imagenesInicioDesktop {
 
-        .containerImg{
+        .containerImg {
             .inicio {
                 width: 300px;
                 height: 400px;
@@ -66,9 +67,10 @@
                 right: 15%;
                 bottom: 15%;
             }
+
             .borde {
                 width: 413px;
-                height: 520px;  
+                height: 520px;
                 position: absolute;
                 right: 11%;
                 bottom: 8.3%;
@@ -76,145 +78,190 @@
         }
     }
 
-    .imagenesInicioMobile{
+    .imagenesInicioMobile {
         display: none;
     }
 }
-@media screen and (max-width:1440px) {
 
-}
-@media screen and ((min-width:681px) and (max-width:768px)) {
-    .header{
-        .principal{
-            .catalogo {
-                top: 78%;
-                .botonCatalogo{
-                    margin-top: 2.5rem;
+@media screen and ((min-width:769px) and (max-width:1440px)) {
+    .header {
+        .imagenesInicioDesktop {
+
+            .containerImg {
+                .inicio {
+                    width: 250px;
+                    height: 350px;
+                    right: 5%;
+                }
+
+                .borde {
+                    width: 313px;
+                    height: 420px;
+                    right: 1%;
                 }
             }
+        }
+
+        .principal {
             .logo {
-                position: absolute;
-                top: 45%;
-                right: 25%;
-                z-index: 1;
                 .logoHeader {
-                    width: 235px;
-                    height: 235px;
+                    width: 500px;
+                    height: 500px;
                 }
             }
         }
-        .imagenesInicioDesktop{
-            display: none;
-        }
+    }
+}
 
-        .imagenesInicioMobile{
-            display: initial;
-            .containerImgMobile {
-                img{
-                    position: absolute;
-                    width: 225px; 
-                    height: 225px;
-                    border-radius: 80%;
+    @media screen and ((min-width:681px) and (max-width:768px)) {
+        .header {
+            .principal {
+                .catalogo {
+                    top: 78%;
+
+                    .botonCatalogo {
+                        margin-top: 2.5rem;
+                    }
                 }
-                .img1 {
-                    top: 20%;
+
+                .logo {
+                    position: absolute;
+                    top: 45%;
                     right: 25%;
                     z-index: 1;
-                }
 
-                .img2 {
-                    top: 40%;
-                    left: 25%;
+                    .logoHeader {
+                        width: 235px;
+                        height: 235px;
+                    }
+                }
+            }
+
+            .imagenesInicioDesktop {
+                display: none;
+            }
+
+            .imagenesInicioMobile {
+                display: initial;
+
+                .containerImgMobile {
+                    img {
+                        position: absolute;
+                        width: 225px;
+                        height: 225px;
+                        border-radius: 80%;
+                    }
+
+                    .img1 {
+                        top: 20%;
+                        right: 25%;
+                        z-index: 1;
+                    }
+
+                    .img2 {
+                        top: 40%;
+                        left: 25%;
+                    }
                 }
             }
         }
     }
-}
 
-@media screen and ((min-width:500px) and (max-width:680px)) {
-    .header{
-        .principal{
-            .catalogo {
-                top: 78%;
-                .botonCatalogo{
-                    margin-top: 2.5rem;
+    @media screen and ((min-width:500px) and (max-width:680px)) {
+        .header {
+            .principal {
+                .catalogo {
+                    top: 78%;
+
+                    .botonCatalogo {
+                        margin-top: 2.5rem;
+                    }
                 }
-            }
-            .logo {
-                position: absolute;
-                top: 45%;
-                right: 25%;
-                z-index: 1;
-                .logoHeader {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-        }
-        .imagenesInicioDesktop{
-            display: none;
-        }
-        .imagenesInicioMobile{
-            display: initial;
-            .containerImgMobile {
-                img{
+
+                .logo {
                     position: absolute;
-                    width: 180px; 
-                    height: 180px;
-                    border-radius: 80%;
-                }
-                .img1 {
-                    top: 20%;
-                    right: 28%;
+                    top: 45%;
+                    right: 25%;
                     z-index: 1;
-                }
 
-                .img2 {
-                    top: 40%;
-                    left: 28%;
+                    .logoHeader {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+
+            .imagenesInicioDesktop {
+                display: none;
+            }
+
+            .imagenesInicioMobile {
+                display: initial;
+
+                .containerImgMobile {
+                    img {
+                        position: absolute;
+                        width: 180px;
+                        height: 180px;
+                        border-radius: 80%;
+                    }
+
+                    .img1 {
+                        top: 20%;
+                        right: 28%;
+                        z-index: 1;
+                    }
+
+                    .img2 {
+                        top: 40%;
+                        left: 28%;
+                    }
                 }
             }
         }
     }
-}
 
-@media screen and ((min-width: 320px) and (max-width:500px)) {
-    .header{
-        .principal{
-            .logo {
-                position: absolute;
-                top: 40%;
-                left: 42.5%;
-                .logoHeader {
-                    width: 200px;
-                    height: 200px;
-                }
-            }
-        }
-        .imagenesInicioDesktop{
-            display: none;
-        }
-
-        .imagenesInicioMobile{
-            display: initial;
-            .containerImgMobile {
-                img{
+    @media screen and ((min-width: 220px) and (max-width:500px)) {
+        .header {
+            .principal {
+                .logo {
                     position: absolute;
-                    width: 200px;
-                    height: 200px;
-                    border-radius: 80%;
-                }
-                .img1 {
-                    top: 17%;
-                    right: 8%;
-                    z-index: 1;
-                }
+                    top: 40%;
+                    left: 42.5%;
 
-                .img2 {
-                    top: 33%;
-                    left: 8%;
+                    .logoHeader {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+
+            .imagenesInicioDesktop {
+                display: none;
+            }
+
+            .imagenesInicioMobile {
+                display: initial;
+
+                .containerImgMobile {
+                    img {
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 80%;
+                    }
+
+                    .img1 {
+                        top: 17%;
+                        right: 8%;
+                        z-index: 1;
+                    }
+
+                    .img2 {
+                        top: 33%;
+                        left: 8%;
+                    }
                 }
             }
         }
-    }   
-}
+    }

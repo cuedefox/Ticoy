@@ -1,10 +1,13 @@
 import React from "react";
 import igLogo from "../assets/img/ig-logo.svg";
 import wspLogo from "../assets/img/whatsapp-logo.svg";
-
+import backContact from "../assets/img/backgrounds/contacto.svg"
 const Contact = () => {
+    const stylesBack = {
+        backgroundImage: `url(${backContact})`,
+    }
     return (
-        <div className="contact" id="contact">
+        <div className="contact" id="contact" style={stylesBack}>
             <h2>Contacto</h2>
             <div className="containerContact">
 
